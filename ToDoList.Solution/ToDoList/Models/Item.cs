@@ -12,5 +12,9 @@ namespace ToDoList.Models
     {
       return _description;
     }
+    public void SetDescription(string newDescription)
+    {
+      _description = newDescription;
+    }
   }
 }
